@@ -23,10 +23,6 @@
 :::
 # Test
 
-:::if{stat="atk" condition="12+" level=6}
-Attack is at least 12!
-:::
-
 :::if{source="Lillipup" stat="atk" condition="10-" level=6}
 Attack is 10 or less!
 :::
