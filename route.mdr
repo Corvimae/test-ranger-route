@@ -23,21 +23,9 @@
 :::
 # Test
 
-:::if{source="Lillipup" stat="atk" condition="10-" level=6}
-Attack is 10 or less!
-:::
-
-:::if{source="Lillipup" stat="atk" condition="15" level=6}
-Attack is exactly 15!
-:::
-
-
-:::if{source="Lillipup" stat="atk" condition="15-18" level=6}
-Attack is from 15-18!
-:::
 
 :::if{source="Lillipup" stat="atk" condition="(31-/x/x)"}
-IV condition
+Negative attack :<
 :::
 
 ::damage[+0 Tackle at Lvl 9 against 12 Def (0 EVs)]{source="Lillipup" level=9 healthThreshold=12 special=false evs=0 movePower=50 stab=true opponentStat=12}
